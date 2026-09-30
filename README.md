@@ -66,3 +66,7 @@ Uploaded images are stored in `UPLOAD_DIR` (a Docker volume in compose). Tables 
 startup (no migrations yet). The frontend reads `VITE_API_BASE_URL` from the repo-root `.env`.
 Errors from the API use the envelope `{"error": {"code", "message", "details"}}`; the frontend
 normalises them in `src/services/errors.ts`, and `ErrorBoundary` catches render errors.
+
+<p align="center">
+  <img src="./readmebg.png" alt="Lost & Found" width="100%">
+</p>
