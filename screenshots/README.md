@@ -6,6 +6,7 @@ these exact names so the main README can display them:
 
 | File | What to capture |
 | --- | --- |
+| `browse-items.png` | Browse Items page with search, filters and item cards (**added**) |
 | `home.png` | Landing page with recently reported items |
 | `lost-report.png` | Report Lost Item form |
 | `found-report.png` | Report Found Item form |

@@ -229,7 +229,10 @@ npm run build
 
 ## 🖼 Screenshots
 
-Screenshots are added manually (see [`screenshots/README.md`](screenshots/README.md)). Each section below shows its image once the file exists in `screenshots/`: uncomment the image line after adding it.
+Screenshots are taken from the running application and added manually (see [`screenshots/README.md`](screenshots/README.md)). Sections marked "to be added" show their image once the file exists in `screenshots/`: uncomment the image line after adding it.
+
+### 🔎 Browse & Search Items
+![Browse and search items](screenshots/browse-items.png)
 
 ### 🏠 Home Page
 <!-- ![Home Page](screenshots/home.png) -->
