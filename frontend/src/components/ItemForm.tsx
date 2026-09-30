@@ -7,7 +7,7 @@ import { Button } from './ui/Button'
 import { ErrorMessage } from './ui/ErrorMessage'
 import { Input, Select, Textarea } from './ui/FormField'
 
-const MAX_MB = 5
+const MAX_MB = 15
 const today = () => new Date().toISOString().slice(0, 10)
 
 export function ItemForm({

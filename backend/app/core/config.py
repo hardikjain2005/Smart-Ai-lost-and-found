@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 60
     cors_origins: str = ""
     upload_dir: str = "uploads"
-    max_upload_mb: int = 5
+    max_upload_mb: int = 15
     seed_demo_data: bool = False
     seed_admin_email: str = "admin@campusfind.edu"
     seed_admin_password: str = ""

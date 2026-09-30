@@ -109,7 +109,7 @@ def test_image_upload_validation(client):
     assert client.post("/api/uploads", files={"file": ("a.png", png_bytes(), "image/png")}).status_code == 401
     assert client.post("/api/uploads", files={"file": ("a.gif", png_bytes("GIF"), "image/gif")}, headers=h).status_code == 415
     assert client.post("/api/uploads", files={"file": ("a.png", b"not an image", "image/png")}, headers=h).status_code == 415
-    big = b"\x89PNG" + b"0" * (6 * 1024 * 1024)
+    big = b"\x89PNG" + b"0" * (16 * 1024 * 1024)
     assert client.post("/api/uploads", files={"file": ("a.png", big, "image/png")}, headers=h).status_code == 413
 
 
