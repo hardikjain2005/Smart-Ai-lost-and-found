@@ -374,16 +374,6 @@ This is a student project and has not had a professional security audit.
 
 ---
 
-## 🎨 Design Concept
-
-<p align="center">
-  <img src="./readmebg.png" alt="Design concept mockup of a lost-and-found product (illustrative, not the implemented system)" width="100%">
-</p>
-
-> **This is a design concept / mockup, not a screenshot of the running application.** It illustrates a broader product vision. The technologies, numbers and features shown in it (for example YOLO object detection, MongoDB, OpenAI embeddings, real-time updates, email, OTP/QR handover and the "94% AI match confidence") are **illustrative and are not part of the current implementation**. What is actually built is described in Features, Technology Stack and Limitations, and the screenshots of the real application belong in Screenshots.
-
----
-
 ## 🔭 Future Scope
 
 **Not currently implemented**, possible future work:
