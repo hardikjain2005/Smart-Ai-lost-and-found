@@ -96,7 +96,7 @@ Some valuable or sensitive items, such as jewellery, expensive electronics or im
 - Private reports still take part in AI matching, but only for viewers who are allowed to see them. Other users never see the private report, and it does not influence the scores they see.
 - Authorization is enforced on the **FastAPI backend**, not only in the frontend.
 
-> Limitation: the uploaded image file itself is served by a static mount without separate authentication. See [Limitations](#-limitations).
+> Limitation: the uploaded image file itself is served by a static mount without separate authentication. See Limitations.
 
 ---
 
@@ -353,7 +353,7 @@ These are results from the demo data of the completed project, **not claims abou
 - Seeded laptop pair (lost Dell laptop ↔ found Dell laptop): **89%** Match Score
 - Seeded bottle pair: **85%** Match Score
 - Presentation laptop scenario (created during the demo run, in the local presentation database): **93%** Match Score
-- Backend and frontend automated tests passing (see [Testing](#-testing))
+- Backend and frontend automated tests passing (see Testing)
 - PostgreSQL running through Docker Compose
 - Private report authorization implemented and covered by tests
 
@@ -371,6 +371,16 @@ These are results from the demo data of the completed project, **not claims abou
 - API error responses never echo submitted passwords
 
 This is a student project and has not had a professional security audit.
+
+---
+
+## 🎨 Design Concept
+
+<p align="center">
+  <img src="./readmebg.png" alt="Design concept mockup of a lost-and-found product (illustrative, not the implemented system)" width="100%">
+</p>
+
+> **This is a design concept / mockup, not a screenshot of the running application.** It illustrates a broader product vision. The technologies, numbers and features shown in it (for example YOLO object detection, MongoDB, OpenAI embeddings, real-time updates, email, OTP/QR handover and the "94% AI match confidence") are **illustrative and are not part of the current implementation**. What is actually built is described in Features, Technology Stack and Limitations, and the screenshots of the real application belong in Screenshots.
 
 ---
 
